@@ -1,0 +1,252 @@
+.biru {
+  background-color: #72b8f9;
+  height: 3rem;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.nav-item .ubah-pwd {
+  z-index: 3;
+}
+
+.topbar {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.btn-biru {
+  background-color: #72b8f9;
+  box-shadow: 0 0 0 0.1rem rgba(58, 59, 69, 0.2);
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn-biru:hover {
+  background-color: #fff;
+  color: #f67c0a;
+  border: solid 1px;
+  border-radius: 0.5rem;
+}
+
+.bg-light-biru {
+  background-color: #d2f4ff;
+}
+
+.putih {
+  background-color: #fff;
+}
+
+.smokey {
+  background-color: #f8f8f8;
+}
+
+.kuning {
+  background-color: #f4f186;
+  color: #000;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
+.fontgelap {
+  color: black;
+}
+
+.logo {
+  padding-top: 10px;
+  padding: 10px;
+  height: 200px;
+  max-width: 110px;
+}
+
+.tumpul {
+  border-radius: 0.35rem;
+}
+
+.tumpul-bawah {
+  border-bottom-right-radius: 0.35rem;
+  border-bottom-left-radius: 0.35rem;
+  border-top: 0;
+}
+
+.menu-bawah {
+  color: #fff;
+  background-color: #6b6d7d;
+  border-color: #656776;
+  box-shadow: 0 0 0 0.1rem rgba(105, 136, 228, 0.5);
+}
+
+.carousel-inner .carousel-item {
+  object-fit: cover;
+  object-position: center;
+  height: 55vh;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  box-shadow: -5px 5px 10px -10px #2d3748;
+}
+
+.centang {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .bawah {
+    margin-top: 20%;
+  }
+  .kotak {
+    margin-top: -10px;
+  }
+  .centang {
+    width: 100%;
+  }
+
+  .card-body .smol {
+    font-size: x-small;
+  }
+
+  .carousel-inner .carousel-item {
+    margin-top: -15px;
+    object-fit: cover;
+    object-position: center;
+    height: 30%;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: -5px 5px 10px -10px #2d3748;
+  }
+
+  img.card {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo {
+    padding-top: 10px;
+    padding: 10px;
+    height: 180px;
+    max-width: 100px;
+  }
+}
+
+.pdf {
+  width: 60rem;
+  height: 30rem;
+}
+
+body {
+  font-family: Roboto;
+  font-size: small;
+}
+
+td.b {
+  padding: 0.8%;
+  width: fit-content;
+  margin: 0;
+}
+
+.shading {
+  box-shadow: -5px 5px 10px -10px #2d3748;
+}
+
+.smol {
+  font-size: small;
+}
+
+.kotak {
+  background-color: white;
+  border-radius: 0.35rem;
+}
+
+.modal-bawah {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-animation-name: fadeIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s;
+}
+
+.modal-bawah-content {
+  position: fixed;
+  bottom: 0;
+  background-color: #fefefe;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+}
+.modal-bawah-header {
+  padding: 2% 16%;
+  background-color: #fff;
+  color: black;
+}
+
+.modal-bawah-body {
+  padding: 2% 16%;
+}
+
+.modal-footer {
+  padding: 2% 16%;
+  background-color: #fff;
+  color: black;
+}
+
+@-webkit-keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

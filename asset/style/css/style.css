@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.tamu {
+  height: 100vh;
+}
+
+.header h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000;
+}
+
+.header p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #737373;
+}
+
+.tamu-form label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000;
+}
+
+.tamu-form .row {
+  margin-bottom: 1rem;
+}
+
+.tamu-form .col-md,
+.tamu-form .col {
+  margin-bottom: 1rem;
+}
+
+.tamu-left {
+  width: 65%;
+}
+
+.tamu-right {
+  width: 35%;
+}
+
+.carousel-item img {
+  height: 112vh;
+}
+
+@media (max-width: 1023px) {
+  .tamu-left {
+    width: 80%;
+  }
+
+  .tamu-right {
+    width: 20%;
+  }
+
+  .formSecurity {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .tamu-left {
+    padding-top: 3rem;
+    width: 100%;
+  }
+
+  .tamu-right {
+    width: 0%;
+  }
+
+  .formSecurity {
+    display: block;
+  }
+}
+
+/* Security */
+
+.formSecurity {
+  height: 100vh;
+}
+
+.secureRight .row {
+  padding-bottom: 1rem;
+}
+
+.bgsecure {
+  background-position: center bottom;
+  background-image: url(../../security/img/bgform.jpg);
+  height: 100vh;
+}
+
+/* end of secure */
+
+/* user */
+.searchTamu {
+  height: 100vh;
+}
+
+.wrap-text {
+  white-space: nowrap;
+}

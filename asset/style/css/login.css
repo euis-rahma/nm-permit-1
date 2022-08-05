@@ -1,0 +1,15 @@
+.bglogin {
+  background-position: center center;
+  background-image: url(../../img/nmatas.jpg);
+  height: 30vh;
+}
+
+.crlogin {
+  margin-top: -100px;
+  background: hsla(0, 0%, 100%, 0.8);
+  backdrop-filter: blur(30px);
+}
+
+.card {
+  margin: 0, 10vh, 0, 10vh;
+}
